@@ -16,18 +16,18 @@
     ],
     "require": {
         "php": "^7.4 || ^8.0",
-        "symfony/framework-bundle": "^3.4 || 4.4",
-        "symfony/intl": "^3.4 || 4.4",
-        "symfony/templating": "^3.4 || 4.4",
-        "symfony/validator": "^3.4 || 4.4",
-        "symfony/yaml": "^3.4 || 4.4",
+        "symfony/framework-bundle": "^3.4 || ^4.4",
+        "symfony/intl": "^3.4 || ^4.4",
+        "symfony/templating": "^3.4 || ^4.4",
+        "symfony/validator": "^3.4 || ^4.4",
+        "symfony/yaml": "^3.4 || ^4.4",
         "psr/log": "^1.0 || ^2.0 || ^3.0"
     },
     "require-dev": {
         "symfony/phpunit-bridge": "^3.3 || ^4.0",
         "ext-intl": "*",
         "twig/twig": "1.* || 2.*",
-        "symfony/form": "^3.4 || 4.4",
+        "symfony/form": "^3.4 || ^4.4",
         "symfony/flex": "^1.0 || ^2.0"
     },
     "suggest": {
@@ -45,7 +45,7 @@
     "extra": {
         "symfony": {
             "allow-contrib": true,
-            "require": "^3.4"
+            "require": "^4.4"
         }
     }
 }
